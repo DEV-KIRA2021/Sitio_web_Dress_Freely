@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagenes/icono..png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Prompt:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+    <title>Dress Freely</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/catalogo.css">
+    <link rel="stylesheet" href="../css/carrito.css">
+</head>
+<body>
+    <div class="contenedor-inicio">
+    <header>
+        <section class="titulo">
+            <h1>DRESS FREELY</h1>           
+         </section>
+
+        <nav>
+            <ul class="menu-horizontal">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="nosotros.html">NOSOTROS</a></li>
+            <li>
+                <a href="">TIENDA</a>
+                <ul class="menu-vertical">
+                    <li><a href="vestido.html">Vestido</a></li>
+                    <li><a href="hoodie.html">Hoodie</a></li>
+                    <li><a href="blazer.html">Blazer</a></li>
+                    <li><a href="jean.html">Jean</a></li>
+                    <li><a href="buzo.html">Conjunto de buzo</a></li>
+                    <li><a href="calzado.html">Calzado</a></li>
+                </ul>
+            </li>
+            <li><a href="oferta.html">OFERTA</a></li>
+            <li><a href="clientes.html">CLIENTES</a></li>
+            <div class="header-section">
+            <div>
+                <img onmouseover="showCart(this)" class="cart" src="../imagenes/carrito1.png" alt="">
+                <p class="count-product">0</p>
+            </div>
+            <div class="cart-products" id="products-id">
+                <p class="close-btn" onclick="closeBtn()">X</p>
+                <h3>Mi carrito</h3>
+                <div class="card-items">
+                </div>
+                <h2 class="total">Total: S/. <strong class="price-total">0</strong></h2>
+                <a href="./tarjeta.html" data-id="1" class="btn-pagar">PAGAR</a>
+
+            </div>
+        </div>
+            </ul>  
+            
+        </nav>      
+    </header>
+    <h2 class="sub-titulo">Blazer</h2>
+
+    <div class="container">
+        <div class="galeria">
+                <img src="../imagenes/blazer1.jpg" alt="">
+                <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="1" class="boton">AÑADIR AL CARRITO</a>
+        </div>
+        <div class="galeria">
+            <img src="../imagenes/blazer2.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="2" class="boton">AÑADIR AL CARRITO</a>
+            
+        </div>
+        <div class="galeria">
+            <img src="../imagenes/blazer3.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="3" class="boton">AÑADIR AL CARRITO</a>
+            
+        </div>
+        <div class="galeria">
+            <img src="../imagenes/blazer4.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="4" class="boton">AÑADIR AL CARRITO</a>
+            
+        </div>
+        <div class="galeria">
+            <img src="../imagenes/blazer5.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <P class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+            <a href="" data-id="5" class="boton">AÑADIR AL CARRITO</a>
+            
+        </div>
+        <div class="galeria">
+            <img src="../imagenes/blazer6.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="6" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer7.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="7" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer8.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="8" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer9.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="9" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer10.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="10" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer11.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="11" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer12.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="12" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer13.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="13" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer14.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="14" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer15.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="15" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer16.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="16" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer17.png" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="17" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer18.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="18" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer19.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="19" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer20.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="20" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer21.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="21" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer22.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="22" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer23.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="23" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer24.png" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="24" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer25.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="25" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer26.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="26" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer27.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="27" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer28.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="28" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer29.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="29" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        <div class="galeria">
+            <img src="../imagenes/blazer30.jpg" alt="">
+            <p class="precio">S/. <span>100</span></p>
+            <p class="title-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="" data-id="30" class="boton">AÑADIR AL CARRITO</a>
+        </div> 
+        
+</div> 
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="footer">
+                <h3>Teléfono</h3>
+                <p>956464333</p>
+            </div>
+            <div class="footer">
+                <h3>Email</h3>
+                <p>dressfreely@gmail.com</p>
+            </div>
+            <div class="footer">
+                <h3>Dirección</h3>
+                <p>Av. Las Gardenias N°120</p>
+            </div>
+        </div>
+        <div class="contactos">
+            <img src="../imagenes/icon-instagram.svg" alt="" class="icons">
+            <img src="../imagenes/icon-twitter_squared.svg" alt="" class="icons">
+            <img src="../imagenes/icon-phone.svg" alt="" class="icons">
+            <img src="../imagenes/icon-important_mail.svg" alt="" class="icons">
+        </div>
+        <h4 class="titulo-final">&copy; Dress Freely 2022 </h4>
+    </footer>
+    </div>
+    <script>
+        function showCart(x){
+            document.getElementById("products-id").style.display = "block";
+        }
+        function closeBtn(){
+             document.getElementById("products-id").style.display = "none";
+        }
+
+    </script>
+    <script src="../javascript/carrito.js" ></script>
+    
+  
+    
+</body>
+</html>
